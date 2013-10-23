@@ -1,7 +1,7 @@
 src/*.exe
-src/florincoin
-src/florincoind
-src/test_florincoin
+src/wisstoken
+src/wisstokend
+src/test_wisstoken
 src/build.h
 .*.swp
 *.*~*
@@ -11,11 +11,11 @@ src/build.h
 *.o
 *.patch
 .bitcoin
-.florincoin
+.wisstoken
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-florincoin-qt
+wisstoken-qt
 #resources cpp
 qrc_*.cpp
 #qt creator

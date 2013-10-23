@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2012 Litecoin Developers
-// Copyright (c) 2013 Florincoin developers
+// Copyright (c) 2013 WissToken developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -31,7 +31,7 @@ unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 uint256 hashGenesisBlock("0x09c7781c9df90708e278c35d38ea5c9041d7ecfcdd1c56ba67274b7cff3e1cea");
-static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Florincoin: starting difficulty is 1 / 2^12
+static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // WissToken: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
 CBigNum bnBestChainWork = 0;
@@ -51,7 +51,7 @@ map<uint256, map<uint256, CDataStream*> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Florincoin Signed Message:\n";
+const string strMessageMagic = "WissToken Signed Message:\n";
 
 double dHashesPerSec;
 int64 nHPSTimerStart;
@@ -833,17 +833,17 @@ uint256 static GetOrphanRoot(const CBlock* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 100 * COIN; // Florincoin: 100 (Litecoin: 50)
+    int64 nSubsidy = 100 * COIN; // WissToken: 100 (Litecoin: 50)
 
     // Subsidy is cut in half every 800000 blocks
-    nSubsidy >>= (nHeight / 800000); // Florincoin: 800k blocks in ~1 years
+    nSubsidy >>= (nHeight / 800000); // WissToken: 800k blocks in ~1 years
 
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan_Version1 = 60 * 60; // Florincoin: 60 minutes (Litecoin: 3.5 days)
-static const int64 nTargetSpacing = 40; // Florincoin: 40 seconds (~1/4x Litecoin: 2.5 minutes)
-static const int64 nInterval_Version1 = nTargetTimespan_Version1 / nTargetSpacing; // Florincoin: 90 blocks
+static const int64 nTargetTimespan_Version1 = 60 * 60; // WissToken: 60 minutes (Litecoin: 3.5 days)
+static const int64 nTargetSpacing = 40; // WissToken: 40 seconds (~1/4x Litecoin: 2.5 minutes)
+static const int64 nInterval_Version1 = nTargetTimespan_Version1 / nTargetSpacing; // WissToken: 90 blocks
 
 static const int64 nHeight_Version2 = 208440;
 static const int64 nInterval_Version2 = 15;
@@ -1191,7 +1191,7 @@ bool CTransaction::ConnectInputs(MapPrevTx inputs,
 {
     // Take over previous transactions' spent pointers
     // fBlock is true when this is called from AcceptBlock when a new best-block is added to the blockchain
-    // fMiner is true when called from the internal florincoin miner
+    // fMiner is true when called from the internal wisstoken miner
     // ... both are false when called from CTransaction::AcceptToMemoryPool
     if (!IsCoinBase())
     {
@@ -1938,7 +1938,7 @@ bool CheckDiskSpace(uint64 nAdditionalBytes)
         string strMessage = _("Warning: Disk space is low");
         strMiscWarning = strMessage;
         printf("*** %s\n", strMessage.c_str());
-        uiInterface.ThreadSafeMessageBox(strMessage, "Florincoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+        uiInterface.ThreadSafeMessageBox(strMessage, "WissToken", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
         StartShutdown();
         return false;
     }
@@ -2018,7 +2018,7 @@ bool LoadBlockIndex(bool fAllowNew)
 		// block.nNonce = 1000112548
 		// block.GetHash = 09c7781c9df90708e278c35d38ea5c9041d7ecfcdd1c56ba67274b7cff3e1cea
 		// CBlock(hash=09c7781c9df90708e278, PoW=00000dd664a0d447b6b3, ver=1, hashPrevBlock=00000000000000000000, hashMerkleRoot=730f0c8ddc, nTime=1371488396, nBits=1e0ffff0, nNonce=1000112548, vtx=1)
-		//   CTransaction(hash=730f0c8ddc, ver=2, vin.size=1, vout.size=1, nLockTime=0, strTxComment=text:Florincoin genesis block)
+		//   CTransaction(hash=730f0c8ddc, ver=2, vin.size=1, vout.size=1, nLockTime=0, strTxComment=text:WissToken genesis block)
 		//     CTxIn(COutPoint(0000000000, -1), coinbase 04ffff001d010441536c617368646f74202d203137204a756e652032303133202d205361756469204172616269612053657420546f2042616e2057686174734170702c20536b797065)
 		//     CTxOut(nValue=100.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
 		//   vMerkleTree: 730f0c8ddc 
@@ -2031,7 +2031,7 @@ bool LoadBlockIndex(bool fAllowNew)
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 100 * COIN;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
-		txNew.strTxComment = "text:Florincoin genesis block";
+		txNew.strTxComment = "text:WissToken genesis block";
         CBlock block;
         block.vtx.push_back(txNew);
         block.hashPrevBlock = 0;

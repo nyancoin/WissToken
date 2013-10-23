@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Florincoin</source>
-        <translation>O Florincoinu</translation>
+        <source>About WissToken</source>
+        <translation>O WissTokenu</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Florincoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Florincoin&lt;/b&gt; verze</translation>
+        <source>&lt;b&gt;WissToken&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;WissToken&lt;/b&gt; verze</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
@@ -39,8 +39,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Florincoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tohle jsou tvé Florincoinové adresy pro příjem plateb.  Můžeš pokaždé dát každému odesílateli jinou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
+        <source>These are your WissToken addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tohle jsou tvé WissTokenové adresy pro příjem plateb.  Můžeš pokaždé dát každému odesílateli jinou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="36"/>
@@ -223,8 +223,8 @@ Jsi si jistý, že chceš peněženku zašifrovat?</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <source>Florincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Florincoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých bitcoinů malwarem, kterým se může počítač nakazit.</translation>
+        <source>WissToken will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>WissToken se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých bitcoinů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="207"/>
@@ -278,8 +278,8 @@ Jsi si jistý, že chceš peněženku zašifrovat?</translation>
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="73"/>
-        <source>Florincoin Wallet</source>
-        <translation>Florincoinová peněženka</translation>
+        <source>WissToken Wallet</source>
+        <translation>WissTokenová peněženka</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="215"/>
@@ -288,8 +288,8 @@ Jsi si jistý, že chceš peněženku zašifrovat?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="248"/>
-        <source>Show/Hide &amp;Florincoin</source>
-        <translation>Zobrazit/Skrýt &amp;Florincoin</translation>
+        <source>Show/Hide &amp;WissToken</source>
+        <translation>Zobrazit/Skrýt &amp;WissToken</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="515"/>
@@ -363,8 +363,8 @@ Jsi si jistý, že chceš peněženku zašifrovat?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show information about Florincoin</source>
-        <translation>Zobraz informace o Florincoinu</translation>
+        <source>Show information about WissToken</source>
+        <translation>Zobraz informace o WissTokenu</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="242"/>
@@ -413,18 +413,18 @@ Jsi si jistý, že chceš peněženku zašifrovat?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="210"/>
-        <source>Send coins to a Florincoin address</source>
+        <source>Send coins to a WissToken address</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="246"/>
-        <source>Modify configuration options for Florincoin</source>
+        <source>Modify configuration options for WissToken</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="249"/>
-        <source>Show or hide the Florincoin window</source>
-        <translation>Zobraz nebo skryj okno Florincoinu</translation>
+        <source>Show or hide the WissToken window</source>
+        <translation>Zobraz nebo skryj okno WissTokenu</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="251"/>
@@ -500,13 +500,13 @@ Jsi si jistý, že chceš peněženku zašifrovat?</translation>
     <message>
         <location filename="../bitcoingui.cpp" line="343"/>
         <location filename="../bitcoingui.cpp" line="399"/>
-        <source>Florincoin client</source>
-        <translation>Florincoin klient</translation>
+        <source>WissToken client</source>
+        <translation>WissToken klient</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="492"/>
-        <source>%n active connection(s) to Florincoin network</source>
-        <translation><numerusform>%n aktivní spojení do Florincoinové sítě</numerusform><numerusform>%n aktivní spojení do Florincoinové sítě</numerusform><numerusform>%n aktivních spojení do Florincoinové sítě</numerusform></translation>
+        <source>%n active connection(s) to WissToken network</source>
+        <translation><numerusform>%n aktivní spojení do WissTokenové sítě</numerusform><numerusform>%n aktivní spojení do WissTokenové sítě</numerusform><numerusform>%n aktivních spojení do WissTokenové sítě</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="540"/>
@@ -613,8 +613,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="112"/>
-        <source>A fatal error occured. Florincoin can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. Florincoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <source>A fatal error occured. WissToken can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. WissToken nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -639,8 +639,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="263"/>
-        <source>The user interface language can be set here. This setting will only take effect after restarting Florincoin.</source>
-        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Florincoinu.</translation>
+        <source>The user interface language can be set here. This setting will only take effect after restarting WissToken.</source>
+        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování WissTokenu.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="252"/>
@@ -664,7 +664,7 @@ Adresa: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="285"/>
-        <source>Whether to show Florincoin addresses in the transaction list</source>
+        <source>Whether to show WissToken addresses in the transaction list</source>
         <translation>Zda ukazovat bitcoinové adresy ve výpisu transakcí nebo ne</translation>
     </message>
     <message>
@@ -674,8 +674,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
-        <source>This setting will take effect after restarting Florincoin.</source>
-        <translation>Nastavení se projeví až po restartování Florincoinu.</translation>
+        <source>This setting will take effect after restarting WissToken.</source>
+        <translation>Nastavení se projeví až po restartování WissTokenu.</translation>
     </message>
 </context>
 <context>
@@ -732,7 +732,7 @@ Adresa: %4
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Florincoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid WissToken address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -751,7 +751,7 @@ Adresa: %4
     <message>
         <location filename="../bitcoin.cpp" line="133"/>
         <location filename="../bitcoin.cpp" line="143"/>
-        <source>Florincoin-Qt</source>
+        <source>WissToken-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -814,13 +814,13 @@ Adresa: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="222"/>
-        <source>&amp;Start Florincoin on system login</source>
-        <translation>&amp;Spustit Florincoin po přihlášení do systému</translation>
+        <source>&amp;Start WissToken on system login</source>
+        <translation>&amp;Spustit WissToken po přihlášení do systému</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
-        <source>Automatically start Florincoin after logging in to the system</source>
-        <translation>Automaticky spustí Florincoin po přihlášení do systému</translation>
+        <source>Automatically start WissToken after logging in to the system</source>
+        <translation>Automaticky spustí WissToken po přihlášení do systému</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="226"/>
@@ -907,8 +907,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../messagepage.cpp" line="30"/>
-        <source>Enter a Florincoin address (e.g. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</source>
-        <translation>Zadej Florincoinovou adresu (např. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</translation>
+        <source>Enter a WissToken address (e.g. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</source>
+        <translation>Zadej WissTokenovou adresu (např. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</translation>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="83"/>
@@ -953,7 +953,7 @@ Adresa: %4
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="348"/>
-        <source>Automatically open the Florincoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the WissToken client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -964,7 +964,7 @@ Adresa: %4
     <message>
         <location filename="../optionsdialog.cpp" line="352"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Připojí se do Florincoinové sítě přes SOCKS4 proxy (např. když se připojuje přes Tor)</translation>
+        <translation>Připojí se do WissTokenové sítě přes SOCKS4 proxy (např. když se připojuje přes Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="357"/>
@@ -1005,7 +1005,7 @@ Adresa: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="47"/>
         <location filename="../forms/overviewpage.ui" line="204"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Florincoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the WissToken network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1122,7 +1122,7 @@ Adresa: %4
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Florincoin debug window</source>
+        <source>WissToken debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1205,7 +1205,7 @@ Adresa: %4
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="299"/>
-        <source>Open the Florincoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
+        <source>Open the WissToken debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1230,7 +1230,7 @@ Adresa: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="212"/>
-        <source>Welcome to the Florincoin RPC console.</source>
+        <source>Welcome to the WissToken RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1414,8 +1414,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a Florincoin address (e.g. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</source>
-        <translation>Zadej Florincoinovou adresu (např. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</translation>
+        <source>Enter a WissToken address (e.g. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</source>
+        <translation>Zadej WissTokenovou adresu (např. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</translation>
     </message>
 </context>
 <context>
@@ -1863,12 +1863,12 @@ Adresa: %4
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="20"/>
-        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Florincoin address used to sign the message.</source>
+        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the WissToken address used to sign the message.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="62"/>
-        <source>Verify a message and obtain the Florincoin address used to sign the message</source>
+        <source>Verify a message and obtain the WissToken address used to sign the message</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1898,7 +1898,7 @@ Adresa: %4
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="28"/>
-        <source>Enter Florincoin signature</source>
+        <source>Enter WissToken signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1973,8 +1973,8 @@ Adresa: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="43"/>
-        <source>Florincoin version</source>
-        <translation>Verze Florincoinu</translation>
+        <source>WissToken version</source>
+        <translation>Verze WissTokenu</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="44"/>
@@ -2240,13 +2240,13 @@ Možnosti SSL: (viz instrukce nastavení SSL v Bitcoin Wiki)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="121"/>
-        <source>Cannot obtain a lock on data directory %s.  Florincoin is probably already running.</source>
-        <translation>Nedaří se mi získat zámek na datový adresář %s. Florincoin pravděpodobně už jednou běží.</translation>
+        <source>Cannot obtain a lock on data directory %s.  WissToken is probably already running.</source>
+        <translation>Nedaří se mi získat zámek na datový adresář %s. WissToken pravděpodobně už jednou běží.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
-        <source>Florincoin</source>
-        <translation>Florincoin</translation>
+        <source>WissToken</source>
+        <translation>WissToken</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="30"/>
@@ -2295,13 +2295,13 @@ Možnosti SSL: (viz instrukce nastavení SSL v Bitcoin Wiki)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="135"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Florincoin</source>
-        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Florincoinu</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of WissToken</source>
+        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi WissTokenu</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="136"/>
-        <source>Wallet needed to be rewritten: restart Florincoin to complete</source>
-        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Florincoin, aby se operace dokončila</translation>
+        <source>Wallet needed to be rewritten: restart WissToken to complete</source>
+        <translation>Soubor s peněženkou potřeboval přepsat: restartuj WissToken, aby se operace dokončila</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="137"/>
@@ -2400,7 +2400,7 @@ Možnosti SSL: (viz instrukce nastavení SSL v Bitcoin Wiki)</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="28"/>
-        <source>Unable to bind to %s on this computer. Florincoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. WissToken is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2513,8 +2513,8 @@ Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl čí
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="25"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Florincoin will not work properly.</source>
-        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas.  Pokud jsou nastaveny špatně, Florincoin nebude fungovat správně.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong WissToken will not work properly.</source>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas.  Pokud jsou nastaveny špatně, WissToken nebude fungovat správně.</translation>
     </message>
 </context>
 </TS>

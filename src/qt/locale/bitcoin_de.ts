@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="14"/>
-        <source>About Florincoin</source>
-        <translation>Über Florincoin</translation>
+        <source>About WissToken</source>
+        <translation>Über WissToken</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="53"/>
-        <source>&lt;b&gt;Florincoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Florincoin&lt;/b&gt; Version</translation>
+        <source>&lt;b&gt;WissToken&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;WissToken&lt;/b&gt; Version</translation>
     </message>
     <message>
         <location filename="../forms/aboutdialog.ui" line="97"/>
@@ -39,8 +39,8 @@ Dieses Produkt enthält Software, die vom OpenSSL Projekt zur Verwendung im Open
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="20"/>
-        <source>These are your Florincoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dies sind Ihre Florincoin-Adressen zum Empfangen von Zahlungen. Es steht Ihnen frei, jedem Absender eine andere mitzuteilen, um einen besseren Überblick über eingehende Zahlungen zu erhalten.</translation>
+        <source>These are your WissToken addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dies sind Ihre WissToken-Adressen zum Empfangen von Zahlungen. Es steht Ihnen frei, jedem Absender eine andere mitzuteilen, um einen besseren Überblick über eingehende Zahlungen zu erhalten.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="36"/>
@@ -222,8 +222,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="111"/>
-        <source>Florincoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Florincoin wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Verschlüsselung Ihrer Brieftasche nicht vollständig vor Diebstahl Ihrer Florincoins durch Schadsoftware schützt, die Ihren Computer befällt.</translation>
+        <source>WissToken will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>WissToken wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Verschlüsselung Ihrer Brieftasche nicht vollständig vor Diebstahl Ihrer WissTokens durch Schadsoftware schützt, die Ihren Computer befällt.</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="207"/>
@@ -277,8 +277,8 @@ Are you sure you wish to encrypt your wallet?</source>
     <name>BitcoinGUI</name>
     <message>
         <location filename="../bitcoingui.cpp" line="73"/>
-        <source>Florincoin Wallet</source>
-        <translation>Florincoin-Brieftasche</translation>
+        <source>WissToken Wallet</source>
+        <translation>WissToken-Brieftasche</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="215"/>
@@ -287,8 +287,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="248"/>
-        <source>Show/Hide &amp;Florincoin</source>
-        <translation>Zeige/Verstecke &amp;Florincoin</translation>
+        <source>Show/Hide &amp;WissToken</source>
+        <translation>Zeige/Verstecke &amp;WissToken</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="515"/>
@@ -328,7 +328,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="203"/>
         <source>&amp;Receive coins</source>
-        <translation>Florincoins &amp;empfangen</translation>
+        <translation>WissTokens &amp;empfangen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="204"/>
@@ -338,7 +338,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="209"/>
         <source>&amp;Send coins</source>
-        <translation>Florincoins &amp;überweisen</translation>
+        <translation>WissTokens &amp;überweisen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="216"/>
@@ -362,8 +362,8 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="240"/>
-        <source>Show information about Florincoin</source>
-        <translation>Informationen über Florincoin anzeigen</translation>
+        <source>Show information about WissToken</source>
+        <translation>Informationen über WissToken anzeigen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="242"/>
@@ -412,18 +412,18 @@ Are you sure you wish to encrypt your wallet?</source>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="210"/>
-        <source>Send coins to a Florincoin address</source>
-        <translation>Florincoins an eine Florincoin-Adresse überweisen</translation>
+        <source>Send coins to a WissToken address</source>
+        <translation>WissTokens an eine WissToken-Adresse überweisen</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="246"/>
-        <source>Modify configuration options for Florincoin</source>
-        <translation>Erweiterte Florincoin-Einstellungen ändern</translation>
+        <source>Modify configuration options for WissToken</source>
+        <translation>Erweiterte WissToken-Einstellungen ändern</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="249"/>
-        <source>Show or hide the Florincoin window</source>
-        <translation>Zeige oder verstecke das Florincoin Fenster</translation>
+        <source>Show or hide the WissToken window</source>
+        <translation>Zeige oder verstecke das WissToken Fenster</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="251"/>
@@ -499,13 +499,13 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="343"/>
         <location filename="../bitcoingui.cpp" line="399"/>
-        <source>Florincoin client</source>
-        <translation>Florincoin Client</translation>
+        <source>WissToken client</source>
+        <translation>WissToken Client</translation>
     </message>
     <message numerus="yes">
         <location filename="../bitcoingui.cpp" line="492"/>
-        <source>%n active connection(s) to Florincoin network</source>
-        <translation><numerusform>%n aktive Verbindung zum Florincoin-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum Florincoin-Netzwerk</numerusform></translation>
+        <source>%n active connection(s) to WissToken network</source>
+        <translation><numerusform>%n aktive Verbindung zum WissToken-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum WissToken-Netzwerk</numerusform></translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="540"/>
@@ -550,7 +550,7 @@ Are you sure you wish to encrypt your wallet?</source>
     <message>
         <location filename="../bitcoingui.cpp" line="649"/>
         <source>This transaction is over the size limit.  You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?</source>
-        <translation>Die Transaktion übersteigt das Größenlimit. Sie können sie trotzdem senden, wenn Sie eine zusätzliche Transaktionsgebühr in Höhe von %1 zahlen. Diese wird an die Knoten verteilt, die Ihre Transaktion bearbeiten und unterstützt damit das Florincoin-Netzwerk.&lt;br&gt;&lt;br&gt;Möchten Sie die Gebühr bezahlen?</translation>
+        <translation>Die Transaktion übersteigt das Größenlimit. Sie können sie trotzdem senden, wenn Sie eine zusätzliche Transaktionsgebühr in Höhe von %1 zahlen. Diese wird an die Knoten verteilt, die Ihre Transaktion bearbeiten und unterstützt damit das WissToken-Netzwerk.&lt;br&gt;&lt;br&gt;Möchten Sie die Gebühr bezahlen?</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="654"/>
@@ -611,8 +611,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="112"/>
-        <source>A fatal error occured. Florincoin can no longer continue safely and will quit.</source>
-        <translation>Ein schwerer Fehler ist aufgetreten. Florincoin kann nicht stabil weiter ausgeführt werden und wird beendet.</translation>
+        <source>A fatal error occured. WissToken can no longer continue safely and will quit.</source>
+        <translation>Ein schwerer Fehler ist aufgetreten. WissToken kann nicht stabil weiter ausgeführt werden und wird beendet.</translation>
     </message>
 </context>
 <context>
@@ -637,8 +637,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="263"/>
-        <source>The user interface language can be set here. This setting will only take effect after restarting Florincoin.</source>
-        <translation>Legt die Sprache der Benutzeroberfläche fest. Diese Einstellung wird erst nach einem Neustart von Florincoin aktiv.</translation>
+        <source>The user interface language can be set here. This setting will only take effect after restarting WissToken.</source>
+        <translation>Legt die Sprache der Benutzeroberfläche fest. Diese Einstellung wird erst nach einem Neustart von WissToken aktiv.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="252"/>
@@ -653,7 +653,7 @@ Adresse: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="277"/>
         <source>Choose the default subdivision unit to show in the interface, and when sending coins</source>
-        <translation>Wählen Sie die Standard-Untereinheit, die in der Benutzeroberfläche und beim Überweisen von Florincoins angezeigt werden soll</translation>
+        <translation>Wählen Sie die Standard-Untereinheit, die in der Benutzeroberfläche und beim Überweisen von WissTokens angezeigt werden soll</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="284"/>
@@ -662,8 +662,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="285"/>
-        <source>Whether to show Florincoin addresses in the transaction list</source>
-        <translation>Legt fest, ob Florincoin-Addressen in der Transaktionsliste angezeigt werden</translation>
+        <source>Whether to show WissToken addresses in the transaction list</source>
+        <translation>Legt fest, ob WissToken-Addressen in der Transaktionsliste angezeigt werden</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
@@ -672,8 +672,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="303"/>
-        <source>This setting will take effect after restarting Florincoin.</source>
-        <translation>Diese Einstellung wird erst nach einem Neustart von Florincoin aktiv.</translation>
+        <source>This setting will take effect after restarting WissToken.</source>
+        <translation>Diese Einstellung wird erst nach einem Neustart von WissToken aktiv.</translation>
     </message>
 </context>
 <context>
@@ -730,8 +730,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="96"/>
-        <source>The entered address &quot;%1&quot; is not a valid Florincoin address.</source>
-        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige Florincoin-Adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid WissToken address.</source>
+        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige WissToken-Adresse.</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="101"/>
@@ -749,8 +749,8 @@ Adresse: %4</translation>
     <message>
         <location filename="../bitcoin.cpp" line="133"/>
         <location filename="../bitcoin.cpp" line="143"/>
-        <source>Florincoin-Qt</source>
-        <translation>Florincoin-Qt</translation>
+        <source>WissToken-Qt</source>
+        <translation>WissToken-Qt</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="133"/>
@@ -812,13 +812,13 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="222"/>
-        <source>&amp;Start Florincoin on system login</source>
-        <translation>&amp;Starte Florincoin nach Systemanmeldung</translation>
+        <source>&amp;Start WissToken on system login</source>
+        <translation>&amp;Starte WissToken nach Systemanmeldung</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="223"/>
-        <source>Automatically start Florincoin after logging in to the system</source>
-        <translation>Florincoin nach der Anmeldung am System automatisch ausführen</translation>
+        <source>Automatically start WissToken after logging in to the system</source>
+        <translation>WissToken nach der Anmeldung am System automatisch ausführen</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="226"/>
@@ -905,8 +905,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="30"/>
-        <source>Enter a Florincoin address (e.g. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</source>
-        <translation>Florincoin-Adresse eingeben (z.B. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</translation>
+        <source>Enter a WissToken address (e.g. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</source>
+        <translation>WissToken-Adresse eingeben (z.B. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</translation>
     </message>
     <message>
         <location filename="../messagepage.cpp" line="83"/>
@@ -951,8 +951,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="348"/>
-        <source>Automatically open the Florincoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den Florincoin Client-Port auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
+        <source>Automatically open the WissToken client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisch den WissToken Client-Port auf dem Router öffnen. Dies funktioniert nur, wenn Ihr Router UPnP unterstützt und dies aktiviert ist.</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="351"/>
@@ -962,7 +962,7 @@ Adresse: %4</translation>
     <message>
         <location filename="../optionsdialog.cpp" line="352"/>
         <source>Connect to the Bitcon network through a SOCKS4 proxy (e.g. when connecting through Tor)</source>
-        <translation>Über einen SOCKS4-Proxy mit dem Florincoin-Netzwerk verbinden (z.B. bei einer Verbindung über Tor)</translation>
+        <translation>Über einen SOCKS4-Proxy mit dem WissToken-Netzwerk verbinden (z.B. bei einer Verbindung über Tor)</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="357"/>
@@ -1003,7 +1003,7 @@ Adresse: %4</translation>
     <message>
         <location filename="../forms/overviewpage.ui" line="47"/>
         <location filename="../forms/overviewpage.ui" line="204"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Florincoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the WissToken network after a connection is established, but this process has not completed yet.</source>
         <translation>Die angezeigten Informationen sind möglicherweise nicht mehr aktuell. Ihre Brieftasche wird synchronisiert nachdem eine Verbindung zum Netzwerk hergestellt wurde, dieser Prozess ist aber derzeit noch nicht abgeschlossen.</translation>
     </message>
     <message>
@@ -1120,8 +1120,8 @@ Adresse: %4</translation>
     <name>RPCConsole</name>
     <message>
         <location filename="../forms/rpcconsole.ui" line="14"/>
-        <source>Florincoin debug window</source>
-        <translation>Florincoin Debug-Fenster</translation>
+        <source>WissToken debug window</source>
+        <translation>WissToken Debug-Fenster</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="46"/>
@@ -1203,8 +1203,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="299"/>
-        <source>Open the Florincoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
-        <translation>Öffnet die Florincoin Debug-Protokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
+        <source>Open the WissToken debug logfile from the current data directory. This can take a few seconds for large logfiles.</source>
+        <translation>Öffnet die WissToken Debug-Protokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
     </message>
     <message>
         <location filename="../forms/rpcconsole.ui" line="302"/>
@@ -1228,8 +1228,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="212"/>
-        <source>Welcome to the Florincoin RPC console.</source>
-        <translation>Willkommen in der Florincoin RPC-Konsole.</translation>
+        <source>Welcome to the WissToken RPC console.</source>
+        <translation>Willkommen in der WissToken RPC-Konsole.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="213"/>
@@ -1254,7 +1254,7 @@ Adresse: %4</translation>
         <location filename="../sendcoinsdialog.cpp" line="148"/>
         <location filename="../sendcoinsdialog.cpp" line="153"/>
         <source>Send Coins</source>
-        <translation>Florincoins überweisen</translation>
+        <translation>WissTokens überweisen</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsdialog.ui" line="64"/>
@@ -1349,7 +1349,7 @@ Adresse: %4</translation>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="154"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige Florincoins aus Ihrer Brieftasche bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die Florincoins dort ausgegeben haben und dies daher in der derzeit aktiven Brieftasche nicht vermerkt ist.</translation>
+        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige WissTokens aus Ihrer Brieftasche bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die WissTokens dort ausgegeben haben und dies daher in der derzeit aktiven Brieftasche nicht vermerkt ist.</translation>
     </message>
 </context>
 <context>
@@ -1412,8 +1412,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="26"/>
-        <source>Enter a Florincoin address (e.g. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</source>
-        <translation>Florincoin-Adresse eingeben (z.B. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</translation>
+        <source>Enter a WissToken address (e.g. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</source>
+        <translation>WissToken-Adresse eingeben (z.B. FShM3UpgFZnXzJ5zux1AWQvAE36rFJKMs7)</translation>
     </message>
 </context>
 <context>
@@ -1554,7 +1554,7 @@ Adresse: %4</translation>
     <message>
         <location filename="../transactiondesc.cpp" line="229"/>
         <source>Generated coins must wait 120 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to &quot;not accepted&quot; and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generierte Florincoins müssen 120 Blöcke lang warten, bevor sie ausgegeben werden können. Als Sie diesen Block generierten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in &quot;nicht angenommen&quot; geändert und der Betrag wird nicht verfügbar werden. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block zur selben Zeit wie Sie generierte.</translation>
+        <translation>Generierte WissTokens müssen 120 Blöcke lang warten, bevor sie ausgegeben werden können. Als Sie diesen Block generierten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in &quot;nicht angenommen&quot; geändert und der Betrag wird nicht verfügbar werden. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block zur selben Zeit wie Sie generierte.</translation>
     </message>
 </context>
 <context>
@@ -1861,13 +1861,13 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="20"/>
-        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the Florincoin address used to sign the message.</source>
-        <translation>Geben Sie die Nachricht und Signatur unten ein (achten Sie besonders darauf Zeilenumbrüche, Leerzeichen, Tabulatoren und andere unsichtbare Zeichen mit zu kopieren), um die Florincoin-Adresse zu erhalten, die zum signieren der Nachricht verwendet wurde.</translation>
+        <source>Enter the message and signature below (be careful to correctly copy newlines, spaces, tabs and other invisible characters) to obtain the WissToken address used to sign the message.</source>
+        <translation>Geben Sie die Nachricht und Signatur unten ein (achten Sie besonders darauf Zeilenumbrüche, Leerzeichen, Tabulatoren und andere unsichtbare Zeichen mit zu kopieren), um die WissToken-Adresse zu erhalten, die zum signieren der Nachricht verwendet wurde.</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="62"/>
-        <source>Verify a message and obtain the Florincoin address used to sign the message</source>
-        <translation>Eine Nachricht verifizieren und die Florincoin-Addresse erhalten, die zum Signieren der Nachricht verwendet wurde</translation>
+        <source>Verify a message and obtain the WissToken address used to sign the message</source>
+        <translation>Eine Nachricht verifizieren und die WissToken-Addresse erhalten, die zum Signieren der Nachricht verwendet wurde</translation>
     </message>
     <message>
         <location filename="../forms/verifymessagedialog.ui" line="65"/>
@@ -1896,8 +1896,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="28"/>
-        <source>Enter Florincoin signature</source>
-        <translation>Florincoin-Signatur eingeben</translation>
+        <source>Enter WissToken signature</source>
+        <translation>WissToken-Signatur eingeben</translation>
     </message>
     <message>
         <location filename="../verifymessagedialog.cpp" line="29"/>
@@ -1971,8 +1971,8 @@ Adresse: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="43"/>
-        <source>Florincoin version</source>
-        <translation>Florincoin Version</translation>
+        <source>WissToken version</source>
+        <translation>WissToken Version</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="44"/>
@@ -2012,12 +2012,12 @@ Adresse: %4</translation>
     <message>
         <location filename="../bitcoinstrings.cpp" line="52"/>
         <source>Generate coins</source>
-        <translation>Florincoins generieren</translation>
+        <translation>WissTokens generieren</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="53"/>
         <source>Don&apos;t generate coins</source>
-        <translation>Keine Florincoins generieren</translation>
+        <translation>Keine WissTokens generieren</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="54"/>
@@ -2238,13 +2238,13 @@ SSL Optionen: (siehe Bitcoin-Wiki für SSL Installationsanweisungen)</translatio
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="121"/>
-        <source>Cannot obtain a lock on data directory %s.  Florincoin is probably already running.</source>
-        <translation>Datenverzeichnis %s kann nicht gesperrt werden. Evtl. wurde Florincoin bereits gestartet.</translation>
+        <source>Cannot obtain a lock on data directory %s.  WissToken is probably already running.</source>
+        <translation>Datenverzeichnis %s kann nicht gesperrt werden. Evtl. wurde WissToken bereits gestartet.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="48"/>
-        <source>Florincoin</source>
-        <translation>Florincoin</translation>
+        <source>WissToken</source>
+        <translation>WissToken</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="30"/>
@@ -2293,13 +2293,13 @@ SSL Optionen: (siehe Bitcoin-Wiki für SSL Installationsanweisungen)</translatio
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="135"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Florincoin</source>
-        <translation>Fehler beim Laden von wallet.dat: Brieftasche benötigt neuere Version von Florincoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of WissToken</source>
+        <translation>Fehler beim Laden von wallet.dat: Brieftasche benötigt neuere Version von WissToken</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="136"/>
-        <source>Wallet needed to be rewritten: restart Florincoin to complete</source>
-        <translation>Brieftasche muss neu geschrieben werden: Starten Sie Florincoin zur Fertigstellung neu</translation>
+        <source>Wallet needed to be rewritten: restart WissToken to complete</source>
+        <translation>Brieftasche muss neu geschrieben werden: Starten Sie WissToken zur Fertigstellung neu</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="137"/>
@@ -2374,7 +2374,7 @@ SSL Optionen: (siehe Bitcoin-Wiki für SSL Installationsanweisungen)</translatio
     <message>
         <location filename="../bitcoinstrings.cpp" line="37"/>
         <source>Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige Florincoins aus Ihrer Brieftasche bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die Florincoins dort ausgegeben haben und dies daher in der derzeit aktiven Brieftasche nicht vermerkt ist.</translation>
+        <translation>Fehler: Die Transaktion wurde abgelehnt. Dies kann passieren, wenn einige WissTokens aus Ihrer Brieftasche bereits ausgegeben wurden. Beispielsweise weil Sie eine Kopie Ihrer wallet.dat genutzt, die WissTokens dort ausgegeben haben und dies daher in der derzeit aktiven Brieftasche nicht vermerkt ist.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="41"/>
@@ -2398,8 +2398,8 @@ SSL Optionen: (siehe Bitcoin-Wiki für SSL Installationsanweisungen)</translatio
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="28"/>
-        <source>Unable to bind to %s on this computer. Florincoin is probably already running.</source>
-        <translation>Kann auf diesem Computer nicht an %s binden. Evtl. wurde Florincoin bereits gestartet.</translation>
+        <source>Unable to bind to %s on this computer. WissToken is probably already running.</source>
+        <translation>Kann auf diesem Computer nicht an %s binden. Evtl. wurde WissToken bereits gestartet.</translation>
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="71"/>
@@ -2511,8 +2511,8 @@ Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Lese
     </message>
     <message>
         <location filename="../bitcoinstrings.cpp" line="25"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong Florincoin will not work properly.</source>
-        <translation>Warnung: Bitte korrigieren Sie die Datums- und Uhrzeiteinstellungen Ihres Computers, da Florincoin ansonsten nicht ordnungsgemäß funktionieren wird.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct.  If your clock is wrong WissToken will not work properly.</source>
+        <translation>Warnung: Bitte korrigieren Sie die Datums- und Uhrzeiteinstellungen Ihres Computers, da WissToken ansonsten nicht ordnungsgemäß funktionieren wird.</translation>
     </message>
 </context>
 </TS>
