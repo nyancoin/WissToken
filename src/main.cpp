@@ -833,7 +833,7 @@ uint256 static GetOrphanRoot(const CBlock* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 100 * COIN; // WissToken: 100 (Litecoin: 50)
+    int64 nSubsidy = 1 * COIN; // WissToken: 1 (Litecoin: 50)
 
     // Subsidy is NOT cut in half every 800000 blocks
     //nSubsidy >>= (nHeight / 800000); // WissToken: 800k blocks in ~1 years
