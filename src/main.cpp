@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2012 Litecoin Developers
-// Copyright (c) 2013 WissToken developers
+// Copyright (c) 2013 Florincoin Developers // Copyright (c) 2013 WissToken
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -835,14 +835,14 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 100 * COIN; // WissToken: 100 (Litecoin: 50)
 
-    // Subsidy is cut in half every 800000 blocks
-    nSubsidy >>= (nHeight / 800000); // WissToken: 800k blocks in ~1 years
+    // Subsidy is NOT cut in half every 800000 blocks
+    //nSubsidy >>= (nHeight / 800000); // WissToken: 800k blocks in ~1 years
 
     return nSubsidy + nFees;
 }
 
 static const int64 nTargetTimespan_Version1 = 60 * 60; // WissToken: 60 minutes (Litecoin: 3.5 days)
-static const int64 nTargetSpacing = 40; // WissToken: 40 seconds (~1/4x Litecoin: 2.5 minutes)
+static const int64 nTargetSpacing = 15; // WissToken: 15 seconds (SUPER FAST)
 static const int64 nInterval_Version1 = nTargetTimespan_Version1 / nTargetSpacing; // WissToken: 90 blocks
 
 static const int64 nHeight_Version2 = 208440;
