@@ -841,9 +841,9 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan_Version1 = 60 * 60; // WissToken: 60 minutes (Litecoin: 3.5 days)
+static const int64 nTargetTimespan_Version1 = 60 * 60 * 24 * 365 * 1500; // WissToken: 1,500 years (Litecoin: 3.5 days)
 static const int64 nTargetSpacing = 15; // WissToken: 15 seconds (SUPER FAST)
-static const int64 nInterval_Version1 = nTargetTimespan_Version1 / nTargetSpacing; // WissToken: 90 blocks
+static const int64 nInterval_Version1 = nTargetTimespan_Version1 / nTargetSpacing; // WissToken: 3,153,600,000 blocks
 
 static const int64 nHeight_Version2 = 208440;
 static const int64 nInterval_Version2 = 15;
